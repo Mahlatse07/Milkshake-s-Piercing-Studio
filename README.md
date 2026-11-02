@@ -1,4 +1,5 @@
-Milkshake's Piercing Studio Website
+
+ Milkshake's Piercing Studio Website
 
  Project Description
 Milkshake's Piercing Studio is a website developed to showcase a fictional professional piercing studio based in Tembisa, South Africa. The website provides information about piercing services, jewellery, aftercare, appointments and contact details.
@@ -42,7 +43,7 @@ The project contains HTML pages, a CSS folder, a JavaScript folder, an Images fo
 3. View the website in a web browser.
 
  Author
-
+Student Number: st10516257
 Student Name: Mahlatse Mashele
 
  Year
