@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Jewellery | Milkshake's Piercing Studio</title>
+<meta name="description" content="Explore different piercing jewellery styles, including studs, hoops, rings and barbells.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+
+<body>
+    
+
+    <header>
+
+        <h1>Milkshake's Piercing Studio</h1>
+        <button class="menu-toggle" id="menuToggle">☰ Menu</button>
+
+<nav id="mainNav">
+    <img src="Images/Custom neon sign Piercing.jpg"
+     alt="Milkshake's Piercing Studio neon sign"
+     width="90" height="auto">
+    <a href="home.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="piercings.html">Piercings</a>
+    <a href="jewellery.html">Jewellery</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="aftercare.html">Aftercare</a>
+    <a href="booking.html">Book Appointment</a>
+    <a href="contact.html">Contact</a>
+    <a href="enquiry.html">Enquiries</a>
+</nav>
+<nav>
+             <img src="Images/Custom neon sign Piercing.jpg" width="90" height="auto">
+            <a href="home.html">Home</a> |
+            <a href="about.html">About Us</a> |
+            <a href="piercings.html">Piercings</a> |
+            <a href="jewellery.html">Jewellery</a> |
+            <a href="gallery.html">Gallery</a> |
+            <a href="aftercare.html">Aftercare</a> |
+            <a href="booking.html">Book Appointment</a> |
+            <a href="contact.html">Contact</a> |
+            <a href="enquiry.html">Enquiries</a> |
+        </nav>
+<div class="date-time">
+    <p id="dateTime"></p>
+</div>
+
+        
+
+    </header>
+
+    <h1>Our Jewellery</h1>
+
+    
+<div class="search-container">
+    <input
+        type="search"
+        class="site-search"
+        placeholder="Search jewellery..."
+        aria-label="Search jewellery"
+    >
+    <p class="search-results" aria-live="polite"></p>
+</div>
+
+
+    <p>
+        Discover our selection of quality piercing jewellery.
+    </p>
+
+    <h2>Titanium Jewellery</h2>
+
+    <p>
+        Titanium jewellery is a popular choice for many
+        piercings because it is lightweight and durable.
+    </p>
+
+    <h2>Gold Jewellery</h2>
+
+    <p>
+        Choose from elegant gold jewellery options for
+        a stylish and timeless look.
+    </p>
+
+    <h2>Surgical Steel</h2>
+
+    <p>
+        We offer a selection of surgical steel jewellery
+        in different styles and designs.
+    </p>
+
+    <h2>Jewellery Styles</h2>
+
+<div class="jewellery-filters">
+    <button class="jewellery-filter active" data-filter="all">All</button>
+    <button class="jewellery-filter" data-filter="studs">Studs</button>
+    <button class="jewellery-filter" data-filter="hoops">Hoops</button>
+    <button class="jewellery-filter" data-filter="rings">Rings</button>
+    <button class="jewellery-filter" data-filter="barbells">Barbells</button>
+    <button class="jewellery-filter" data-filter="chains">Chains</button>
+</div>
+
+<div class="sort-container">
+    <label for="jewellerySort">Sort by:</label>
+
+    <select id="jewellerySort">
+        <option value="default">Default</option>
+        <option value="az">Name (A-Z)</option>
+        <option value="za">Name (Z-A)</option>
+    </select>
+</div>
+
+<ul class="jewellery-list" id="jewelleryList">
+</ul>
+
+<script src="JavaScript/search.js" defer></script>
+<script src="JavaScript/jewellery.js" defer></script>
+<script src="JavaScript/datetime.js" defer></script>
+
+</body>
+</html>
+
+
