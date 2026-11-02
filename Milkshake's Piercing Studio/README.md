@@ -43,7 +43,7 @@ The project contains HTML pages, a CSS folder, a JavaScript folder, an Images fo
 3. View the website in a web browser.
 
  Author
-Student Number: st10516257
+
 Student Name: Mahlatse Mashele
 
  Year
